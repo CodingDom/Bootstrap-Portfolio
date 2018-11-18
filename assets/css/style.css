@@ -1,0 +1,26 @@
+body {
+    background-image: url('../images/hex.png');
+}
+
+.navbar .active {
+    border-bottom: 3px solid #fff;
+}
+
+.content {
+    margin-top: 20px;
+    padding: 20px;
+    min-height: calc(60vh);
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Contact Page */
+
+button[type="submit"] {
+    color: #fff;
+    background-color: #87B8B6;
+}
+
+button[type="submit"]:hover {
+    background-color: #4aaaa5;
+}
