@@ -1,17 +1,44 @@
 body {
     background-image: url('../images/hex.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 32px;
+}
+
+header .container {
+    padding-left: 0;
+}
+
+.navbar {
+    padding-left: 0;
 }
 
 .navbar .active {
     border-bottom: 3px solid #fff;
 }
 
+.navbar-brand,h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* Default settings for content area */
 .content {
     margin-top: 20px;
     padding: 20px;
     min-height: calc(60vh);
     background-color: #fff;
     border: 1px solid #ccc;
+}
+
+.pageHeader {
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #E5E5E5;
+}
+
+/* About Page */
+#profilePic {
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Contact Page */
