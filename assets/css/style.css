@@ -54,8 +54,6 @@ header .container {
 .images {
     height: 150px;
     width: 250px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     margin-right: 35px;
     margin-bottom: 40px;
     float: left;
@@ -64,6 +62,11 @@ header .container {
     cursor: pointer;
     opacity: 0.8;
 }
+
+.images:hover img {
+    box-shadow: 3px 6px 4px #ccc;
+}
+
  .images:hover .imageLabel {
     background-color: #4AC199;
 }
